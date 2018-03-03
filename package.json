@@ -1,0 +1,17 @@
+{
+  "name": "vscode-alsatian-debug",
+  "version": "1.0.0",
+  "description": "Example of how debug alsatian tests in vscode",
+  "main": "index.js",
+  "repository": "git@github.com:andrefarzat/vscode-alsatian-debug.git",
+  "author": "Andre Farzat <andrefarzat@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "ts-node tests/runner.ts"
+  },
+  "dependencies": {
+    "alsatian": "^2.2.1",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.7.2"
+  }
+}
